@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+		<p>
+			<label for="FirstName">First Name: </label>
+			<input type="text" name="01name" id="FirstName" placeholder="Tony" required>
+			<label for="LastName">Last Name: </label>
+			<input type="text" name="02name" id="LastName" placeholder="Junior" required>
+		</p>
+		<p>
+			<label for="dogs">Male</label>
+			<input name="petchoice" id="dogs" type="radio"value="MALE">
+
+			<label for="cats">Female</label>
+			<input name= "petchoice" id = "cats" type="radio" value="FEMALE">
+
+			<label for="lit">Other</label>
+			<input name="petchoice" id="lit" type="radio"value="OTHER">
+		</p>
+		<p>
+			<label for="email">Email: </label>
+			<input type="Email" id="email" name="Email" placeholder="your email" required>
+			<label for="pass">Password: </label>
+			<input type="password" id="pass" name="password" minlength="5" maxlength="10" placeholder="ya password nigga" required>
+		</p>
+		<p>
+			<label for="Bday">Birthday: </label>
+			<select id="Bday" name="Month" required>
+				<option>Month</option>
+				<option>Jan</option>
+				<option>Feb</option>
+				<option>Mar</option>
+				<option>Apr</option>
+				<option>May</option>
+				<option>Jun</option>
+				<option>Jul</option>
+				<option>Aug</option>
+				<option>Sept</option>
+				<option>Oct</option>
+				<option>Nov</option>
+				<option>Dec</option>
+			</select>
+			<select id="Bday" name="Day" required>
+				<option>Day</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+			</select>
+			<select id="Bday" name="Year" required>
+				<option>Year</option>
+				<option>2019</option>
+				<option>2018</option>
+				<option>2017</option>
+				<option>2016</option>
+				<option>2015</option>
+			</select>
+		</p>
+		<p>
+			<label for="TCA">I agree to the terms and conditions </label>
+			<input type="checkbox" id="TCA" name="checkit" required>
+		</p>
+		<input type="submit">
+	</form>
+</body>
+</html>
