@@ -1,0 +1,20 @@
+h1{
+	color: rgba(0,200,100,0.5);
+	/*border-color: purple;
+	border-width: 5px;
+	border-style: solid;*/
+
+	border: 8px dashed rgb(255,100,80);
+}
+li{
+	color: green;
+}
+h4{
+	background: rgb(255,100,80);
+}
+body{
+	background: pink;
+	/*background: url(https://wallpaperaccess.com/full/485961.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}
