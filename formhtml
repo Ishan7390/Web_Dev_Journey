@@ -1,0 +1,49 @@
+<html>
+    <head>
+<style type="text/css">
+   .t1 {
+        background-image: url(Lighthouse.jpg);
+    }
+    .t2{ display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+        border-color: gray}   
+    
+        </style>
+    </head>
+<body class=t1>
+
+<form method='get' action="#">
+    <table>
+        <tr>
+            <td colspan="3" >
+    <tr>
+	<td>First name: </td>
+    <td><input type="text" name="firstname" /></td><br/><br/></tr>
+	<tr><td>Last name:</td><td> <input type="text" name="lastname" /></td></tr><br/><br/>
+	<tr><td>Username: </td><td><input type="text" name="user"/></td></tr><br/><br/>
+	<tr><td>Password: </td><td><input type="password" name="password"/></td></tr><br/><br/>
+      <a href="cricket.txt" >BOOKFORM</a>
+    <Select Gender:
+            <input type="radio" name="sex" value="male" /> male<br/><br/>
+            <input type="radio" name="sex" value="female" /> Female<br/><br/>
+        Select Vehicle:
+            <input type="checkbox" name="vehicle" value="Bike" /> I have a bike
+            <input type="checkbox" name="vehicle" value="Car" /> I have a car<br/><br/>
+        Select City:
+        <select name="city">
+            <option>Select</option>
+            <option>Pune</option>
+            <option>Mumbai</option>
+            <option>Delhi</option>
+        </select>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Cancel">
+                </td>
+ </tr>
+</table>
+    </form>
+    
+</body>
+</html>
